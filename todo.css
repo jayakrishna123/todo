@@ -1,0 +1,32 @@
+.header{
+    background-color: cadetblue;
+    padding: 8px;
+    text-align: center;
+}
+#todo-input{
+    margin-bottom: 10px;
+}
+#list-todo{
+    list-style-type: none;
+}
+ul li{
+    background-color: #888;
+    margin: 8px 10px 10px 20px;
+    padding:10px 0px 10px 10px;
+    color:white;
+}
+*{
+    box-sizing: border-box;
+}
+.completed{
+    background-color: darksalmon;
+    text-decoration: line-through;
+
+}
+.close{
+    background-color: #D64078;
+    padding: 10px;
+    float: right;
+    position: relative;
+    top: -10px;
+}
